@@ -21,7 +21,7 @@ git fetch:  Used to download commits, files, and refs from a remote repository, 
 git rebase: Used to sync local and remote.
 git diff: Shows the differences between files or commits, basically, what has changed.
 git stash: Used to temporarily save your uncommitted changes (both staged and unstaged) so you can work on something else without committing incomplete work.
-gitignore: Used to tell Git which files or folders to ignore — meaning not track or commit.
+.gitignore: Used to tell Git which files or folders to ignore — meaning not track or commit.
 git revert: Used to undo a specific commit by creating a new commit that reverses the changes introduced by that commit.
 git reset: Move your branch pointer backward (rewrites history).
 git branch: Used to list, create, or delete branches in your local Git repository.
