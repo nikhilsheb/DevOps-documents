@@ -6,29 +6,29 @@ GitHub [Remote]: Cloud-based platform built around Git. It provides a user-frien
 
 Commands
 
-git config: Used to set Git configuration values on a global or local project level.
-git config --list: Displays all current Git configuration settings.
-git init: Used to initialize a new Git repository in your project folder.
-git clone <repository-url>: Used to download (replicate) a remote Git repository onto your local machine.
-git add: Used to stage changes (new, modified, or deleted files) so they can be included in your next commit.
-git status: Shows you the current state of your working directory and staging area. It helps you understand what changes are staged, unstaged, or untracked.
-git commit:  Used to save your staged changes to the Git repository history. It creates a snapshot of your code at that point in time.
-git remote: Used to manage remote repositories.
-git remote add origin <url>: Adds a remote named origin.
-git push: Used to upload your local commits to a remote repository.
-git pull: Used to fetch changes from a remote repository.
-git fetch:  Used to download commits, files, and refs from a remote repository, but does NOT merge them into your local branch.
-git rebase: Used to sync local and remote.
-git diff: Shows the differences between files or commits, basically, what has changed.
-git stash: Used to temporarily save your uncommitted changes (both staged and unstaged) so you can work on something else without committing incomplete work.
-.gitignore: Used to tell Git which files or folders to ignore — meaning not track or commit.
-git revert: Used to undo a specific commit by creating a new commit that reverses the changes introduced by that commit.
-git reset: Move your branch pointer backward (rewrites history).
-git branch: Used to list, create, or delete branches in your local Git repository.
-git branch <name>: Create new branch.
-git checkout: Used to switch between branches.
-git checkout -b <branch-name>: A quick way to create a new branch and switch to it immediately.
-git merge: Used to combine changes from one branch into another.
+git config:                     Used to set Git configuration values on a global or local project level.
+git config --list:              Displays all current Git configuration settings.
+git init:                       Used to initialize a new Git repository in your project folder.
+git clone <repository-url>:     Used to download (replicate) a remote Git repository onto your local machine.
+git add:                        Used to stage changes (new, modified, or deleted files) so they can be included in your next commit.
+git status:                     Shows you the current state of your working directory and staging area. It helps you understand what changes are staged, unstaged, or untracked.
+git commit:                     Used to save your staged changes to the Git repository history. It creates a snapshot of your code at that point in time.
+git remote:                     Used to manage remote repositories.
+git remote add origin <url>:    Adds a remote named origin.
+git push:                       Used to upload your local commits to a remote repository.
+git pull:                       Used to fetch changes from a remote repository.
+git fetch:                      Used to download commits, files, and refs from a remote repository, but does NOT merge them into your local branch.
+git rebase:                     Used to sync local and remote.
+git diff:                       Shows the differences between files or commits, basically, what has changed.
+git stash:                      Used to temporarily save your uncommitted changes (both staged and unstaged) so you can work on something else without committing incomplete work.
+.gitignore:                     Used to tell Git which files or folders to ignore — meaning not track or commit.
+git revert:                     Used to undo a specific commit by creating a new commit that reverses the changes introduced by that commit.
+git reset:                      Move your branch pointer backward (rewrites history).
+git branch:                     Used to list, create, or delete branches in your local Git repository.
+git branch <name>:              Create new branch.
+git checkout:                   Used to switch between branches.
+git checkout -b <branch-name>:  A quick way to create a new branch and switch to it immediately.
+git merge:                      Used to combine changes from one branch into another.
 
 Merge Conflict:
 A merge conflict happens when Git tries to merge two branches, but the same part of the same file was changed differently in both branches, so Git doesn’t know which version to keep.
