@@ -7,19 +7,22 @@ What is Docker?
 - Docker is a platform used to develop, ship, and run applications inside containers. It's especially popular for creating lightweight, portable, and consistent development and production environments.
 
 Docker Commands -------
-docker pull <image-name>: Pulls latest image from registry.
-docker run nginx: This downloads the nginx image (if not already pulled) and runs a container from it.
-docker start <container-name or container-id>: Starts a container that has already been created or stopped.
-docker ps: Lists all currently running Docker containers.
-docker ps -a: Show all containers (running + stopped)
-docker images: Shows all downloaded images on your system.
-docker container ls: Lists all currently running containers, just like the older docker ps command.
-docker run --name <container-name> <image-name>: Change name.
-docker exec [OPTIONS] <container-name or ID> <command>:  used to run a command inside a running container.
-docker inspect <container-name or ID>: Description of a container.
-docker stop <container-name or ID>: docker stop is used to gracefully stop a running container.
-docker rm <container-name or container-id>: used to remove one or more stopped containers from your system.
-docker rmi <image-name or image-id>: used to remove Docker images from your local system.
+
+docker pull <image-name>:                                      Pulls latest image from registry.
+docker run nginx:                                              This downloads the nginx image (if not already pulled) and runs a container from it.
+docker start <container-name or container-id>:                 Starts a container that has already been created or stopped.
+docker ps:                                                     Lists all currently running Docker containers.
+docker ps -a:                                                  Show all containers (running + stopped)
+docker images:                                                 Shows all downloaded images on your system.
+docker container ls:                                           Lists all currently running containers, just like the older docker ps command.
+docker run --name <container-name> <image-name>:               Change name.
+docker exec [OPTIONS] <container-name or ID> <command>:        used to run a command inside a running container.
+docker inspect <container-name or ID>:                         Description of a container.
+docker stop <container-name or ID>:                            docker stop is used to gracefully stop a running container.
+docker rm <container-name or container-id>:                    used to remove one or more stopped containers from your system.
+docker rmi <image-name or image-id>:                           used to remove Docker images from your local system.
+
+
 
 
 
